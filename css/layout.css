@@ -1,0 +1,14 @@
+*, *::before, *::after {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: max(25%, 200px) / 1fr;
+}
+
+.container > div {
+  border: 1px solid rebeccapurple;
+  width: 50%;
+  height: 50%;
+}

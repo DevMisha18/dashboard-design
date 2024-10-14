@@ -4,18 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/sidebar.css">
+  <link rel="stylesheet" href="css/main-area.css">
 </head>
 <body>
   <div class="container">
-    <header class="header-nav">
-      <div class="top__part">
-        Search bar + notifications + logo 
+    <header class="header">
+      <div class="header-top">
+        <div class="header__search search">
+          <label for="search-input">
+            <img src="assets/magnify.svg" alt="magnify"
+                 class="search__magnify">
+          </label>
+          <input type="text" id="search-input" class="search__field">
+        </div>
+        <div class="header__profile profile">
+          <img src="assets/bell.svg" alt="notifications-bell" class="profile__bell">
+          <img src="assets/user.png" alt="user-pic" class="profile__avatar">
+          <h3>Morgan Oakley</h3>
+        </div>
       </div>
-      <div class="bottom__part">
-        logo + text + 3 buttons  
+
+
+      <div class="header-bottom">
       </div>
     </header>
+
+    
     <div class="sidebar">
       <div class="logo">
         <img src="" alt="">
@@ -44,7 +62,7 @@
           <h3></h3></div>
       </nav>
     </div>
-    <div class="main-container">
+    <div class="main-area">
       <article class="content">
         <div class="card"></div>
         <div class="card"></div>
