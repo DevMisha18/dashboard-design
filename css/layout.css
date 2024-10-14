@@ -4,11 +4,5 @@
 
 .container {
   display: grid;
-  grid-template-columns: max(25%, 200px) / 1fr;
-}
-
-.container > div {
-  border: 1px solid rebeccapurple;
-  width: 50%;
-  height: 50%;
+  grid-template-columns: max(280px, 23%) 1fr;
 }

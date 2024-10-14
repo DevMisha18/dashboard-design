@@ -1,3 +1,49 @@
 .sidebar {
-  grid-row: start / end;
+  grid-row: 1 / 3;
+  height: 100vh;
+  padding: 0 1.5rem;
+  color: #f5f5f5;
+  background-color: #1b92d4;
+}
+
+/* LOGO */
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  }
+  .logo__img {
+    width: 4rem;
+    &:hover { cursor: pointer; }
+  }
+  .logo__text {
+    display: inline-block;
+  }
+
+
+/* NAV BAR */
+.nav__primary, .nav__secondary {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nav__primary {
+  margin-bottom: 5rem;
+}
+
+.nav__item {
+  display: flex;
+  justify-items: center;
+  gap: 1rem;
+}
+
+.nav__text {
+  display: inline-block;
+  margin: 0;
+}
+
+.logo__img, .logo__text, .nav__item img, .nav__text {
+  &:hover { cursor: pointer; }
 }
