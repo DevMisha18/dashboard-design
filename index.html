@@ -12,24 +12,26 @@
 </head>
 <body>
   <div class="container">
+
+
     <header class="header">
       <div class="header-top">
         <div class="header__search search">
           <label for="search-input">
-            <img src="assets/magnify.svg" alt="magnify"
-                 class="search__magnify">
+            <img src="assets/header/magnify.svg" class="search__magnify">
           </label>
           <input type="text" id="search-input" class="search__field">
         </div>
         <div class="header__profile profile">
-          <img src="assets/bell.svg" alt="notifications-bell" class="profile__bell">
-          <img src="assets/user.png" alt="user-pic" class="profile__avatar">
-          <h3>Morgan Oakley</h3>
+          <img src="assets/header/bell.svg" alt="notifications-bell" class="profile__bell">
+          <img src="assets/header/user.png" alt="user-pic" class="profile__avatar">
+          <h3 class="profile__name">Morgan Oakley</h3>
         </div>
       </div>
+
       <div class="header-bottom">
         <div class="header__greeting greeting">
-          <img src="assets/user.png" alt="user-pic" class="greeting__avatar">
+          <img src="assets/header/user.png" alt="user-pic" class="greeting__avatar">
           <div class="greeting__text">
             <span>Hi there, </span>
             <h3 class="greeting__h2">Morgan Oakley (@morgan)</h3>
@@ -76,21 +78,134 @@
       </nav>
     </div>
 
+
     <div class="main-area">
       <article class="content">
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-      </article>
-      <div class="widget-panel">
-        <div class="widget">
-
+        <h3>Your projects</h3>
+        <div class="cards">
+          <div class="card">
+            <h4 class="card__title">Explore New Worlds</h4>
+            <p class="card__text">Discover exciting destinations, from serene nature spots to vibrant cities. Find unique experiences and embark on journeys that will inspire your wanderlust.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Boost Your Skills</h4>
+            <p class="card__text">Enhance your abilities in areas like tech, cooking, or fitness. Explore online courses and resources to learn something new and achieve personal growth.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Stay Connected</h4>
+            <p class="card__text">Keep in touch with loved ones and colleagues, wherever you are. Use social media, messaging apps, and the latest communication tools to share moments.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Creative Inspirations</h4>
+            <p class="card__text">Find ideas for your next project, whether it's art, DIY, or tech. Explore tutorials and communities that spark creativity and encourage fresh thinking.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Tech Updates</h4>
+            <p class="card__text">Stay informed about the latest in technology, from new gadgets to software trends. See how innovations are shaping industries and everyday life.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Healthy Lifestyle Tips</h4>
+            <p class="card__text">Embrace habits that keep you balanced and energized. Get advice on nutrition, fitness, and wellness practices to support a healthy lifestyle.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Mindfulness and Meditation</h4>
+            <p class="card__text">Discover simple techniques to cultivate mindfulness and reduce stress. Learn how meditation can enhance your daily life and bring peace of mind.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
+          <div class="card">
+            <h4 class="card__title">Outdoor Adventure Ideas</h4>
+            <p class="card__text">Explore new outdoor activities that invigorate the body and mind. From hiking to kayaking, find adventures that match your interests and fitness level.</p>
+            <div class="card__actions">
+              <img class="card__img" src="assets/card-actions/star-plus.svg">
+              <img class="card__img" src="assets/card-actions/eye-plus.svg">
+              <img class="card__img" src="assets/card-actions/fork.svg">
+            </div>
+          </div>
         </div>
+      </article>
+      
+      <div class="widget-panel">
+        <h3>Announcements</h3>
         <div class="widget">
-
+          <div class="widget__item">
+            <h5 class="widget__title">Site Maintenance</h5>
+            <p class="widget__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <hr class="widget__hr">
+          <div class="widget__item">
+            <h5 class="widget__title">Community Share Day</h5>
+            <p class="widget__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <hr class="widget__hr">
+          <div class="widget__item">
+            <h5 class="widget__title">Updated Privacy Policy</h5>
+            <p class="widget__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <h3>Trending</h3>
+        <div class="widget widget--bottom">
+          <div class="widget__other-item">
+            <img src="assets/widget/placeholder_pfp.png" alt="profile pic" class="widget__img">
+            <div>
+              <span class="widget__span">@tegan</span>
+              <p class="widget__p">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="widget__other-item">
+            <img src="assets/widget/placeholder_pfp.png" alt="profile pic" class="widget__img">
+            <div>
+              <span class="widget__span">@morgan</span>
+              <p class="widget__p">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="widget__other-item">
+            <img src="assets/widget/placeholder_pfp.png" alt="profile pic" class="widget__img">
+            <div>
+              <span class="widget__span">@kendal</span>
+              <p class="widget__p">Life Changing App</p>
+            </div>
+          </div>
+          <div class="widget__other-item">
+            <img src="assets/widget/placeholder_pfp.png" alt="profile pic" class="widget__img">
+            <div>
+              <span class="widget__span">@alex</span>
+              <p class="widget__p">No Traffic Maker</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,5 +4,6 @@
 
 .container {
   display: grid;
+  grid-template-rows: auto 1fr;
   grid-template-columns: max(280px, 23%) 1fr;
 }

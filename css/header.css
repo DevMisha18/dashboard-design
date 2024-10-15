@@ -48,6 +48,9 @@
   .profile__avatar {
     height: calc(2 * var(--children-height));
   }
+  .profile__name {
+    &:hover { cursor: pointer; }
+  }
 
 
 
